@@ -1,0 +1,91 @@
+html, body{
+    background-color: lightblue;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: white;
+    overflow: hidden;
+  }
+ .navbar a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 18px 16px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+ .navbar a:hover {
+  background-color: darkcyan;
+  color: white;
+  }
+ .navbar a.active {
+    background-color: #04AA6D;
+    color: blue;
+  }
+
+.frame{
+    background-color: white;
+    padding: 10 10;
+    text-align: center;
+    margin-top: 2%;
+    border-radius: 5px;
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.frameSuccess{
+  background-color: white;
+  padding: 15 15;
+  text-align: center;
+  margin-top: 5%;
+  border-radius: 5px;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.imgLogo{
+  width: 30%;
+}
+
+table, tr, td{
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10 10;
+}
+
+input{
+  border-radius: 5px;
+}
+
+.buttonExit{
+  background-color: seagreen;
+  color: white;
+  padding: 8 8;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.buttonConfirm{
+  background-color: rgb(34, 199, 34);
+  color: white;
+  font-size: 15;
+  padding: 8 8;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.buttonCancel{
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 8 8;
+  text-decoration: none;
+  border-radius: 5px;
+  border-style: groove;
+  border-color: black;
+}
